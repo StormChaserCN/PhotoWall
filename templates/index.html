@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+    <title>PhotoWall</title>
+</head>
+<body>
+<div class="container">
+    <div>
+        {% for photo in photos %}
+        <a href="view?url={{photo.name}}"><img width="200" height="200" src="data:;base64,{{ photo.data }}" )/></a>
+        {% endfor %}
+    </div>
+
+</div>
+</body>
+</html>

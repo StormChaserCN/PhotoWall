@@ -1,0 +1,9 @@
+<uwsgi>
+     <pythonpath>/home/zhy/PhotoWall</pythonpath>
+     <module>main</module>
+     <callable>app</callable>
+     <socket>127.0.0.1:3031</socket>
+     <master/>
+     <processes>2</processes>
+     <memory-report/>
+</uwsgi>
