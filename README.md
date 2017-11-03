@@ -1,3 +1,3 @@
 # PhotoWall
 
-mongodb flask jinja2
+培训用示例代码，mongodb flask jinja2
